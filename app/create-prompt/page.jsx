@@ -61,7 +61,7 @@ const CreatePrompt = () => {
         // send a notification?
         console.log('its ok: ', gpt_response);
       } else {
-        // console.log('error: ', responseData.message);
+        console.log('error: ', responseData.message);
         setError(responseData);
       }
     } catch (error) {
