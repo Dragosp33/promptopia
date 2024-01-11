@@ -9,15 +9,15 @@ Built with [Next.js](https://nextjs.org/) and deployed with [Vercel](https://ver
 ## Routes and utilities
 
 API routes are found in [/app/api](https://github.com/Dragosp33/promptopia/tree/main/app/api)
-  - [/auth/[...nextauth]/route.js](https://github.com/Dragosp33/promptopia/tree/main/app/api/auth/%5B...nextauth%5D/route.js) for authentication
-  - [/prompt](https://github.com/Dragosp33/promptopia/tree/main/app/api/prompt) for prompt handling - create, read
-  - [/users/[id]/posts/route.js](https://github.com/Dragosp33/promptopia/tree/main/app/api/users/%5Bid%5D/posts/route.js) for receiving profile information
+  - [`/auth/[...nextauth]/route.js`](https://github.com/Dragosp33/promptopia/tree/main/app/api/auth/%5B...nextauth%5D/route.js) for authentication
+  - [`/prompt`](https://github.com/Dragosp33/promptopia/tree/main/app/api/prompt) for prompt handling - create, read
+  - [`/users/[id]/posts/route.js`](https://github.com/Dragosp33/promptopia/tree/main/app/api/users/%5Bid%5D/posts/route.js) for receiving profile information
 
 
 Utilities used for session and api handlers are found in [/utils](https://github.com/Dragosp33/promptopia/tree/main/utils)
-  - [database connection](https://github.com/Dragosp33/promptopia/tree/main/utils/database.js)
-  - [openai api](https://github.com/Dragosp33/promptopia/tree/main/utils/chatapi.js)
-  - [summarizer api](https://github.com/Dragosp33/promptopia/tree/main/utils/summary.js)
+  - [`database connection`](https://github.com/Dragosp33/promptopia/tree/main/utils/database.js)
+  - [`openai api`](https://github.com/Dragosp33/promptopia/tree/main/utils/chatapi.js)
+  - [`summarizer api`](https://github.com/Dragosp33/promptopia/tree/main/utils/summary.js)
 
 
 ## Installation guide:
