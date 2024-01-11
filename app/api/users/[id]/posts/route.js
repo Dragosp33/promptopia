@@ -3,6 +3,7 @@ import Prompt from '@models/prompt';
 import { getServerSession } from 'next-auth';
 import User from '@models/user';
 
+export const dynamic = 'force-dynamic';
 export const GET = async (request, { params }) => {
   try {
     await connectToDB();

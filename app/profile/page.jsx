@@ -26,7 +26,7 @@ const MyProfile = () => {
     };
 
     if (session?.user.id) fetchPosts();
-  }, []);
+  }, [session]);
 
   const handleEdit = () => {};
 
