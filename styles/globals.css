@@ -75,6 +75,10 @@
   cursor: pointer;
 }
 
+.prompt_card p {
+  word-break: break-all;
+}
+
 /* Tailwind Styles */
 
 .app {

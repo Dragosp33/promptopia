@@ -65,8 +65,8 @@ const CreatePrompt = () => {
         setError(responseData);
       }
     } catch (error) {
-      console.log(error.message);
-      setError(error);
+      console.log('errored in catch: ', error, error.message);
+      setError(error.message);
     } finally {
       setSubmitting(false);
     }
