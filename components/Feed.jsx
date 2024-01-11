@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const PromptCardList = ({ filter, data, handleTagClick }) => {
   return (
-    <div className='w-full mt-16 prompt_layout'>
+    <div className='mt-16 prompt_layout'>
       {data
         .filter(
           (post) =>
