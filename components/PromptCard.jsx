@@ -53,7 +53,13 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
         </div>
       </div>
 
-      <p className='my-4 font-satoshi text-sm text-gray-700'>{post.prompt}</p>
+      <p className='my-4 font-satoshi text-sm text-gray-700'>
+        {post.prompt.length > 40 ? (
+          <>{post.prompt.slice(0, 40)}...</>
+        ) : (
+          post.prompt
+        )}
+      </p>
       <div className='flex'>
         <Image
           src={'/assets/images/logo.svg'}
