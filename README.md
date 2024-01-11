@@ -6,6 +6,8 @@ Uses OPEN AI API and Summarize API, with built-in next-auth integrated providing
 
 Built with [Next.js](https://nextjs.org/) and deployed with [Vercel](https://vercel.com)
 
+Visit the app at https://promptopia-nine-alpha.vercel.app/
+
 ## Routes and utilities
 
 API routes are found in [/app/api](https://github.com/Dragosp33/promptopia/tree/main/app/api)
