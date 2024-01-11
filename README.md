@@ -1,8 +1,26 @@
+## AI Prompts & Summarize 
+
+Online Platform where users can log in to view, create, and share AI prompts and summarize online articles.
+
+Uses OPEN AI API and Summarize API, with built-in next-auth integrated providing Google as a authentication method.
+
+Built with [Next.js](https://nextjs.org/) and deployed with [Vercel](https://vercel.com)
+
+
+## Installation guide:
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+Install dependecies:
+
+```
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
