@@ -56,10 +56,11 @@ const CreatePrompt = () => {
       const responseData = await gpt_response.json();
       console.log(responseData);
 
-      setResponse(responseData.gptresponse);
       if (gpt_response.ok) {
         // send a notification?
         console.log('its ok: ', gpt_response);
+        setResponse(responseData.gptresponse);
+        setError(false);
       } else {
         console.log('error: ', responseData.message);
         setError(responseData);
